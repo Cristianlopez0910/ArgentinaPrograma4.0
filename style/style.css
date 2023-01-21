@@ -1,0 +1,98 @@
+body{
+    
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 30px 0;
+}
+
+.caja{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+}
+.titulo{
+    display: inline;
+    margin-left: 100px;
+}
+nav{
+    position: absolute;
+    top: 25px;          /**Posicion de las anclas*/
+    right: 0;
+    /*background-color: blue;*/
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+
+main{
+    width: 940px;       /*Se coloca 940 para que ocupe toda la pantalla a lo largo*/
+    margin: 0 auto;
+    background-color: aqua;
+   
+}
+.cajaMain{
+    
+    background-color: rgb(42, 165, 75);
+    width: 940px;
+    height: auto;
+    margin: 5px auto;
+
+}
+
+.ladoIzq{
+    float: left;
+    width: 20%;
+    height: max-content;
+    background-color: white;
+    
+}
+
+.imagenApi{
+    width: 100%;
+    height:100%;
+    border-radius: 15px;
+    
+}
+
+.ladoDerecho{
+    float: right;
+    width: 80%;
+  
+    background-color:crimson;
+
+}
+.tituloPersonal{
+    text-align: center;
+    
+}
+.formacion{
+        width: 100%;
+        float: left;
+       background-color: #0b1491;
+}
+
+
+

@@ -2,6 +2,7 @@ body {
 
     background: #1e1e20;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 header {
@@ -49,16 +50,17 @@ nav a {
 nav a:hover {
     color: hwb(300 17% 31%);
     text-decoration: underline;
+    
 }
 
 
 
 main {
-    width: 945px;
-    height :940px;
+    width: 940px;
+    height: 940px;
     position: relative;
     margin: 0 auto;
-    background-color:rgb(245, 240, 237);
+    background-color: rgb(245, 240, 237);
 }
 
 .cajaMain {
@@ -72,11 +74,9 @@ main {
 .ladoIzq {
     float: left;
     width: 20%;
-    height: max-content;
-    background-color:rgb(245, 240, 237);
-
-
 }
+
+
 
 .imagenApi {
     width: 100%;
@@ -84,8 +84,29 @@ main {
     margin-top: 5px;
     margin-right: 5px;
     border-radius: 15px;
+    transition: 400ms;
+    border: 2px solid black;
+    /**box-shadow: 5px 8px 40px 10px rgb(11, 26, 235);*/
+}
+
+.imagenApi:hover {
+    opacity: 0.4;
+}
+
+.botones {
+    background-color: aqua;
+   
 
 }
+
+.btmostrarTexto,.btCambiarFoto,.btCambiarcolor{
+    margin-top: 3px;
+    width: 70%;
+    margin-left: 30px;
+    
+}
+
+
 
 .ladoDerecho {
     margin-top: 5px;
@@ -94,7 +115,8 @@ main {
     border-radius: 15px;
     /* background-color:crimson;*/
 }
-#iconoPersonal{
+
+#iconoPersonal {
     margin-top: 25px;
     margin-left: 5px;
     font-size: 20px;
@@ -109,12 +131,13 @@ main {
 }
 
 table {
-    
+
     padding: 23px;
     text-align: center;
 }
 
-td,th {
+td,
+th {
     padding: 8px 15px;
 }
 
@@ -128,7 +151,8 @@ td {
 
 }
 
-.formacion,.expLaboral {
+.formacion,
+.expLaboral {
     width: 100%;
     position: relative;
     margin: 0 auto;
@@ -140,41 +164,56 @@ td {
 
 }
 
-.cajaFormacion,.cajaLaboral {
+.cajaFormacion,
+.cajaLaboral {
     height: 25px;
     position: relative;
     margin: 0 auto;
     background-color: #6182f7;
     border: none;
-    
-    
+
+
 }
 
-.formProfecionalTitulo,.titLaboral {
+.formProfecionalTitulo,
+.titLaboral {
     text-align: center;
     margin-top: auto;
     text-decoration: underline;
-    float:initial;
+    float: initial;
 }
-#iconoFormacion,#iconoLaboral{
+
+#iconoFormacion,
+#iconoLaboral {
     margin-top: 5px;
     font-size: 20px;
     float: left;
     align-self: center;
 }
 
-.descripcion,.descripcionLaboral {
+.descripcion,
+.descripcionLaboral {
     position: relative;
     margin: 0 auto;
     border: none;
 }
-ul,p{
+
+ul,
+p {
     font-weight: bold;
 }
 
 
-footer{
+footer {
+    float: left;
+    width: 100%;
     background: #6182f7;
-    padding-top: 40px;
+    padding-top: 30px;
 
+}
+
+#nombreFooter {
+    text-align: center;
+    margin-top: auto;
+    float: initial;
 }

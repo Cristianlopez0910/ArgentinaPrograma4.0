@@ -17,7 +17,7 @@
 
 <body id="bodyColorTExto">
 
-    <header>
+    <header id="headerColor">
         <div class="caja">
 
             <img class="logo" src="https://cdn.profesional.ticmas.io/logos/argentina-programa.svg" -->
@@ -25,8 +25,11 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home<a></a></li>
+                    <i class="fa-solid fa-house" id="homeIcono"></i>
                     <li><a href="https://github.com/Cristianlopez0910">Github</a></li>
+                    <i class="fa-brands fa-github" id="ghitHubIcono"></i>
                     <li><a href="https://www.linkedin.com/feed/?trk=nav_logo">Linkedin</a></li>
+                    <i class="fa-brands fa-linkedin" id="linKedinlogo"></i>
                 </ul>
             </nav>
 
@@ -43,6 +46,7 @@
                     <button type="button" class="btmostrarTexto" id="mostrarTexto" >Reemplazar texto</button>
                     <button type="button" class="btCambiarFoto" id="cambiarFoto">Cambiar imagen</button>
                     <button type="button" class="btCambiarcolor" id="cambiarColorTexto" >Color texto</button>
+                    <button type="button" class="btCambiarTemaColor" id="cambiarTemaColor" >Cambiar tema</button>
                 </div>
 
             </div>
@@ -95,17 +99,17 @@
         </section>
 
         <section class="formacion">
-            <fieldset class="cajaFormacion">
+            <fieldset class="cajaFormacion" id="cajaInformacion">
                 <i class="fa-solid fa-building-columns" id="iconoFormacion"></i>
-                <h2 class="formProfecionalTitulo">FORMACIÓN PROFECIONAL</h2>
+                <h2 class="formProfecionalTitulo">FORMACIÓN PROFESIONAL</h2>
                 
 
             </fieldset>
 
-            <fieldset class="descripcion">
+            <fieldset class="descripcion" >
 
                 <UL>
-                    <p>TÉCNICO SUPERIOR EN PROGRMACIÓN</p>
+                    <p>TÉCNICO SUPERIOR EN PROGRAMACIÓN</p>
                     <p>TÍTULO TERCIARIO</p>
                     <P>INSTITUTO SUPERIOR
                         TECNOLÓGICO EMPRESARIAL INTERNACIONAL</P>
@@ -114,7 +118,7 @@
 
         </section>
         <section class="expLaboral">
-            <fieldset class="cajaLaboral">
+            <fieldset class="cajaLaboral" id="cajaLaboral">
                 <i class="fa-sharp fa-solid fa-briefcase" id="iconoLaboral"></i>
                 <h2 class="titLaboral">EXPERIENCIA LABORAL</h2>
             </fieldset>
@@ -142,8 +146,10 @@
         </section>
         <script src="java.js"></script>
     </main>
-    <footer>
-        <h2 id="nombreFooter">Cristian López</h2>
+    <footer id="footer">
+        <h3 class="nombreFooter ">CREADO POR CRISTIAN LÓPEZ </h3>
+        <i class="fa-sharp fa-solid fa-person-digging" id="iconoFooter"></i>
+        
     </footer>
 
 

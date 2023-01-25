@@ -52,7 +52,10 @@ nav a:hover {
     text-decoration: underline;
     
 }
-
+#linKedinlogo,#ghitHubIcono,#homeIcono{
+    font-size: 20px;
+    align-self: center;
+}
 
 
 main {
@@ -94,18 +97,40 @@ main {
 }
 
 .botones {
-    background-color: aqua;
-   
+    width: 100%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
 
 }
 
-.btmostrarTexto,.btCambiarFoto,.btCambiarcolor{
-    margin-top: 3px;
+.btmostrarTexto,.btCambiarFoto,.btCambiarcolor,.btCambiarTemaColor{
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 70%;
     margin-left: 30px;
-    
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
 }
-
+.btmostrarTexto:hover{
+    background:#dd2c09;
+    transform: scale(1.2);
+}
+.btCambiarFoto:hover{
+    background:#dbf023;
+    transform: scale(1.2);
+}
+.btCambiarcolor:hover{
+    background:#0ac914;
+    transform: scale(1.2);
+}
+.btCambiarTemaColor:hover {
+    background:#c00cb4;
+    /*Resalta cuando el raton esta arriba del recuadro*/
+    transform: scale(1.2);
+    /*Agranda el boton haciendo un aumento de el*/
+}
 
 
 .ladoDerecho {
@@ -185,9 +210,9 @@ td {
 
 #iconoFormacion,
 #iconoLaboral {
+    float: left;
     margin-top: 5px;
     font-size: 20px;
-    float: left;
     align-self: center;
 }
 
@@ -206,14 +231,18 @@ p {
 
 footer {
     float: left;
-    width: 100%;
+    width: 100%; 
     background: #6182f7;
-    padding-top: 30px;
-
+    text-align: center;
+   padding: 10px 0 10px 0;
 }
 
-#nombreFooter {
-    text-align: center;
-    margin-top: auto;
-    float: initial;
+.nombreFooter {
+    display: inline;
+    position: relative;
+    text-align: center;  
+}
+#iconoFooter{
+    font-size: 20px;
+    align-self: center;
 }

@@ -35,7 +35,7 @@ const cargaDatos = async () => {
 cargaDatos();
 
 //Botones configuracion 
-//Cambiar texto
+//Reemplazar texto y cambiar color
 document.getElementById('mostrarTexto').onclick = function(){
     document.getElementById("datosPersonal").innerHTML ="GRACIAS POR VISITAR MI CV ONLINE!!!";
     document.getElementById("datosPersonal").style.webkitTextFillColor='#F21710';
@@ -45,6 +45,13 @@ document.getElementById('mostrarTexto').onclick = function(){
 document.getElementById('cambiarFoto').onclick = function(){
 document.getElementById("imagenApi").src='imagen/descarga.png';
 }
+//Cambiar color de texto
 document.getElementById('cambiarColorTexto').onclick = function(){
     document.getElementById("bodyColorTExto").style.webkitTextFillColor='#24E24F';
+}
+document.getElementById('cambiarTemaColor').onclick = function(){
+    document.getElementById('headerColor').style.background= '#4710F2';
+    document.getElementById('cajaLaboral').style.background= '#4710F2';
+    document.getElementById('cajaInformacion').style.background= '#4710F2';
+    document.getElementById('footer').style.background= '#4710F2';
 }

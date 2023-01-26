@@ -50,9 +50,12 @@ nav a {
 nav a:hover {
     color: hwb(300 17% 31%);
     text-decoration: underline;
-    
+
 }
-#linKedinlogo,#ghitHubIcono,#homeIcono{
+
+#linKedinlogo,
+#ghitHubIcono,
+#homeIcono {
     font-size: 20px;
     align-self: center;
 }
@@ -104,7 +107,10 @@ main {
 
 }
 
-.btmostrarTexto,.btCambiarFoto,.btCambiarcolor,.btCambiarTemaColor{
+.btmostrarTexto,
+.btCambiarFoto,
+.btCambiarcolor,
+.btCambiarTemaColor {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 70%;
@@ -113,20 +119,24 @@ main {
     cursor: pointer;
     transition: 1s all;
 }
-.btmostrarTexto:hover{
-    background:#dd2c09;
+
+.btmostrarTexto:hover {
+    background: #dd2c09;
     transform: scale(1.2);
 }
-.btCambiarFoto:hover{
-    background:#dbf023;
+
+.btCambiarFoto:hover {
+    background: #dbf023;
     transform: scale(1.2);
 }
-.btCambiarcolor:hover{
-    background:#0ac914;
+
+.btCambiarcolor:hover {
+    background: #0ac914;
     transform: scale(1.2);
 }
+
 .btCambiarTemaColor:hover {
-    background:#c00cb4;
+    background: #c00cb4;
     /*Resalta cuando el raton esta arriba del recuadro*/
     transform: scale(1.2);
     /*Agranda el boton haciendo un aumento de el*/
@@ -231,18 +241,119 @@ p {
 
 footer {
     float: left;
-    width: 100%; 
+    width: 100%;
     background: #6182f7;
     text-align: center;
-   padding: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 .nombreFooter {
     display: inline;
     position: relative;
-    text-align: center;  
+    text-align: center;
 }
-#iconoFooter{
+
+#iconoFooter {
     font-size: 20px;
     align-self: center;
+}
+
+@media screen and (max-width:480px) {
+    header {
+        padding: 40px 0;
+    }
+
+    .logo {
+        display: inline;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .titulo {
+        display: inline;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    #linKedinlogo,
+    #ghitHubIcono,
+    #homeIcono {
+        font-size: 15px;
+    }
+
+    #linKedinlogo {
+        padding-right: 3px;
+    }
+
+    .caja {
+        width: auto;
+    }
+
+
+    main {
+        width: auto;
+    }
+
+    .cajaMain {
+        width: auto;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .imagenApi {
+        border: 1px solid black;
+    }
+
+    .botones {
+        border: 1px solid #000000;
+    }
+
+    .btmostrarTexto,
+    .btCambiarFoto,
+    .btCambiarcolor,
+    .btCambiarTemaColor {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        width: 70px;
+        margin-left: 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s all;
+        font-size: 7px;
+    }
+
+    #iconoPersonal {
+        font-size: 13px;
+    }
+
+    .tituloPersonal {
+        margin-left: 23px;
+        font-size: 15px;
+        margin-top: 23px;
+    }
+
+    .tabla {
+        width: auto;
+    }
+
+    th,
+    td {
+        font-size: 10px;
+
+    }
+
+    #iconoFormacion,
+    #iconoLaboral {
+        font-size: 15px;
+    }
+
+    .formProfecionalTitulo,
+    .titLaboral {
+        font-size: 15px;
+    }
+    .descripcion, .descripcionLaboral{
+        font-size: 10px;
+    }
 }
